@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1849.2016" xes.features="">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="__INVALID__"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="__INVALID__"/>
+		<string key="concept:instance" value="__INVALID__"/>
+		<string key="lifecycle:transition" value="complete"/>
+		<string key="org:resource" value="__INVALID__"/>
+		<string key="org:group" value="__INVALID__"/>
+		<date key="time:timestamp" value="1970-01-01T01:00:00.000+01:00"/>
+	</global>
+	<string key="concept:name" value="Filtered D1 log"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Register"/>
+			<date key="time:timestamp" value="1970-01-02T12:24:45.453+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester3"/>
+			<date key="time:timestamp" value="1970-01-02T12:28:03.263+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester3"/>
+			<date key="time:timestamp" value="1970-01-02T12:37:53.294+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverC1"/>
+			<date key="time:timestamp" value="1970-01-02T12:40:50.606+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 10"/>
+			<string key="concept:name" value="Repair (Complex)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverC1"/>
+			<date key="time:timestamp" value="1970-01-02T13:00:41.593+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 10"/>
+			<string key="concept:name" value="Repair (Complex)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester3"/>
+			<date key="time:timestamp" value="1970-01-02T13:03:15.476+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester3"/>
+			<date key="time:timestamp" value="1970-01-02T13:11:08.774+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Inform User"/>
+			<date key="time:timestamp" value="1970-01-02T13:28:49.686+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Archive Repair"/>
+			<date key="time:timestamp" value="1970-01-02T13:31:35.629+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10"/>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Register"/>
+			<date key="time:timestamp" value="1970-01-01T11:34:00.066+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester2"/>
+			<date key="time:timestamp" value="1970-01-01T11:36:54.392+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester2"/>
+			<date key="time:timestamp" value="1970-01-01T11:44:59.334+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverS1"/>
+			<date key="time:timestamp" value="1970-01-01T12:07:52.318+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Roles 1, 2, and 3"/>
+			<string key="concept:name" value="Repair (Simple)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverS1"/>
+			<date key="time:timestamp" value="1970-01-01T12:17:13.427+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Roles 1, 2, and 3"/>
+			<string key="concept:name" value="Repair (Simple)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester6"/>
+			<date key="time:timestamp" value="1970-01-01T12:19:52.325+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester6"/>
+			<date key="time:timestamp" value="1970-01-01T12:28:31.767+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Restart Repair"/>
+			<date key="time:timestamp" value="1970-01-01T12:37:47.483+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 2"/>
+			<string key="org:resource" value="SolverS2"/>
+			<date key="time:timestamp" value="1970-01-01T12:40:03.605+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Roles 1, 2, and 3"/>
+			<string key="concept:name" value="Repair (Simple)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Inform User"/>
+			<date key="time:timestamp" value="1970-01-01T12:43:26.085+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 2"/>
+			<string key="org:resource" value="SolverS2"/>
+			<date key="time:timestamp" value="1970-01-01T12:53:07.191+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Roles 1, 2, and 3"/>
+			<string key="concept:name" value="Repair (Simple)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 2"/>
+			<string key="org:resource" value="Tester4"/>
+			<date key="time:timestamp" value="1970-01-01T12:54:48.913+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 2"/>
+			<string key="org:resource" value="Tester4"/>
+			<date key="time:timestamp" value="1970-01-01T13:03:05.999+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Archive Repair"/>
+			<date key="time:timestamp" value="1970-01-01T13:09:56.525+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="100"/>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Register"/>
+			<date key="time:timestamp" value="1970-01-04T03:25:17.720+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester4"/>
+			<date key="time:timestamp" value="1970-01-04T03:28:32.483+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester4"/>
+			<date key="time:timestamp" value="1970-01-04T03:37:57.341+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Analyze Defect"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverC1"/>
+			<date key="time:timestamp" value="1970-01-04T03:55:31.050+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 10"/>
+			<string key="concept:name" value="Repair (Complex)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 1, 3, and 5"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="SolverC1"/>
+			<date key="time:timestamp" value="1970-01-04T04:14:08.524+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 10"/>
+			<string key="concept:name" value="Repair (Complex)"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester1"/>
+			<date key="time:timestamp" value="1970-01-04T04:16:17.947+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Groups 2 and 4"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="Tester1"/>
+			<date key="time:timestamp" value="1970-01-04T04:28:23.397+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:role" value="Role 9"/>
+			<string key="concept:name" value="Test Repair"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Inform User"/>
+			<date key="time:timestamp" value="1970-01-04T04:33:30.609+01:00"/>
+		</event>
+		<event>
+			<string key="org:group" value="Group -"/>
+			<string key="concept:instance" value="instance 1"/>
+			<string key="org:resource" value="System"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Archive Repair"/>
+			<date key="time:timestamp" value="1970-01-04T04:44:14.190+01:00"/>
+		</event>
+	</trace>
+</log>
